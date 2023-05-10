@@ -44,11 +44,13 @@ console.log("Numero Menor");
       let positivo = Math.abs(diferencia);
       const divs = [];
       let diferenciaNumero = 5 - positivo
-      setNumRechazo(positivo)
       setPropsNumero(diferenciaNumero)
-      
       divs.push("Aulas desocupadas '"+positivo+"' ")
       setRechazo(divs)
+       if(positivo < 5){
+
+      setNumRechazo(0)
+      }
 
     }else{
       console.log("Numero Mayor");
