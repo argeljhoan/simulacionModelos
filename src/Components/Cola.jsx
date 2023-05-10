@@ -58,7 +58,7 @@ const Cola = ({ landa, capacidadSimulacion }) => {
 
    
 
-  }, [landa ,capacidadSimulacion,rechazo ]);
+  }, [landa ,capacidadSimulacion,numRechazo ]);
 
 
   console.log(landa);
