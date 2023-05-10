@@ -1,0 +1,33 @@
+
+
+.table{
+    width: 90%;
+    border: solid 1 px black;
+    margin: auto;
+   
+}
+
+
+
+
+
+.rdt_TableCol{
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+   
+}
+.rdt_Table{
+    width: 100%;
+    border-collapse: separate;
+   
+}
+
+.rdt_TableCell{
+
+color: black;
+font-size: 15px;
+}
