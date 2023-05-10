@@ -39,15 +39,19 @@ const Cola = ({ landa, capacidadSimulacion }) => {
     
   
     if(diferencia <  0){
+console.log("Numero Menor");
+
       let positivo = Math.abs(diferencia);
       const divs = [];
       let diferenciaNumero = 5 - positivo
+      setNumRechazo(positivo)
       setPropsNumero(diferenciaNumero)
-      console.log("numerooooooooo"+propsNumero);
+      
       divs.push("Aulas desocupadas '"+positivo+"' ")
       setRechazo(divs)
 
     }else{
+      console.log("Numero Mayor");
       const numero = 5
       
       setPropsNumero(numero)
