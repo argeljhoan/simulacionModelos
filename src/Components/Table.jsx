@@ -53,25 +53,25 @@ const Table = ({arrayResult}) => {
          selector: (row) => row.p,
       },
       {
-       name: 'Sistema-Vacio(Po)',
+       name: '(Po)',
        selector: (row) => row.probabilidad,
       },
       ,
       {
-       name: 'Numero-Sistema(L)',
+       name: '(L)',
        selector: (row) => row.L,
       }
       ,
       {
-       name: 'Numero-Cola(Lq)',
+       name: '(Lq)',
        selector: (row) => row.Lq,
       },
       {
-       name: 'Tiempo-Sistema(W)',
+       name: '(W)',
        selector: (row) => row.W,
       },
       {
-       name: 'Tiempo-Cola(Wq)',
+       name: '(Wq)',
        selector: (row) => row.Wq,
       }
      ];
